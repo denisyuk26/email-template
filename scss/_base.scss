@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+	&:before,
+	&:after {
+		box-sizing: border-box;
+	}
+
+
+}
+html, body {
+	height: 100%;
+	font-size: 16px;
+	min-width: 320px;
+}
+body {
+	position: relative;
+	line-height: 1.65;
+	font-family: raleway-example, sans-serif;
+}
+.img-responsive {
+	overflow-x: hidden;
+	opacity: 1;
+	display: block;
+}
+.text-center {
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+
